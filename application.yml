@@ -1,0 +1,14 @@
+server:
+  profules:
+    active:
+---
+#spring 配置
+spring:
+  profules: dev
+    application:
+      name: springcloud-config-dev
+---
+spring:
+  profules: dev
+    application:
+      name: springcloud-config-test
