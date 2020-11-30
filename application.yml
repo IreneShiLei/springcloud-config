@@ -4,11 +4,11 @@ server:
 ---
 #spring 配置
 spring:
-  profules: dev
+  profiles: dev
     application:
       name: springcloud-config-dev
 ---
 spring:
-  profules: test
+  profiles: test
     application:
       name: springcloud-config-test
