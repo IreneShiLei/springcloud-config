@@ -1,14 +1,13 @@
 server:
-  profules:
+  profiles:
     active:
 ---
-#spring 配置
 spring:
   profiles: dev
-    application:
-      name: springcloud-config-dev
+  application:
+    name: springcloud-config-dev
 ---
 spring:
   profiles: test
-    application:
-      name: springcloud-config-test
+  application:
+    name: springcloud-config-test
